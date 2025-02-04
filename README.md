@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📦 E-Commerce Store (Next.js + Redux + React Query)
+Этот проект — это e-commerce приложение, построенное с использованием Next.js, Redux, React Query и Tailwind CSS.
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
+🚀 Установка и запуск проекта
+1️⃣ Клонирование репозитория
+sh
+Копировать
+Редактировать
+git clone https://github.com/your-repo/ecommerce-store.git
+cd ecommerce-store
+2️⃣ Установка зависимостей
+sh
+Копировать
+Редактировать
+yarn install
+3️⃣ Запуск в режиме разработки
+sh
+Копировать
+Редактировать
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+После этого проект будет доступен по адресу http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚙️ Конфигурация окружения
+Перед запуском убедись, что у тебя есть файл .env.local, содержащий нужные переменные окружения.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Создай .env.local и добавь:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ini
+Копировать
+Редактировать
+NEXT_PUBLIC_API_URL=http://your-api-url.com
+Замени http://your-api-url.com на реальный API.
 
-## Learn More
+🛠️ Дополнительные команды
+📦 Сборка проекта
+sh
+Копировать
+Редактировать
+yarn build
+Собирает проект для продакшена.
 
-To learn more about Next.js, take a look at the following resources:
+✅ Запуск в продакшене
+sh
+Копировать
+Редактировать
+yarn start
+После сборки можно запустить Next.js сервер.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔍 Линтинг кода
+sh
+Копировать
+Редактировать
+yarn lint
+Проверяет код на ошибки и предупреждения.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🧹 Форматирование кода
+sh
+Копировать
+Редактировать
+yarn format
+Форматирует код (если используется Prettier).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📂 Структура проекта
+bash
+Копировать
+Редактировать
+📂 ecommerce-store
+├── 📂 components       # UI-компоненты (Cart, Header, ProductGrid, SearchBar)
+├── 📂 lib              # Конфигурация Redux и API-запросов
+├── 📂 pages            # Next.js страницы
+├── 📂 store            # Redux slices
+├── .env.local.example  # Пример файла конфигурации
+├── .gitignore          # Игнорируемые файлы Git
+├── package.json        # Описание проекта и зависимости
+├── tailwind.config.js  # Настройки Tailwind CSS
+└── tsconfig.json       # Конфигурация TypeScript
+📌 Технологии
+🚀 Next.js — React framework для SSR и SSG
+🏪 Redux Toolkit — Управление состоянием приложения
+🔄 React Query — Запросы к API с кешированием
+🎨 Tailwind CSS — Стилизация UI
+⚙️ TypeScript — Безопасность типов
+👨‍💻 Автор
+🛠 Твой ник или имя
+📧 Email: your-email@example.com
+📌 GitHub
