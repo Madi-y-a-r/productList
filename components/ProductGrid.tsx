@@ -45,7 +45,7 @@ export default function ProductGrid({ initialData }: ProductGridProps) {
         ? products.filter(product =>
             product.title.toLowerCase().includes(searchQuery.toLowerCase()) 
 						
-            // product.description.toLowerCase().includes(searchQuery.toLowerCase())
+            product.description.toLowerCase().includes(searchQuery.toLowerCase())
           )
         : products;
 
